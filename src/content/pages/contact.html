@@ -1,10 +1,10 @@
 ---
-title: "Contact | Code Stitch Web Designs"
+title: "Contacto | Xala"
 description: "Meta description for the page"
 preloadImg: "/assets/images/cabinets2.jpg"
 permalink: "contact/"
 eleventyNavigation:
-    key: Contact Us
+    key: Contactanos
     order: 600
     hideOnDesktop: true
 ---
@@ -21,20 +21,20 @@ eleventyNavigation:
     <!-- ============================================ -->
 
     <section id="int-hero">
-        <h1 id="home-h">Contact Us</h1>
+        <h1 id="home-h">Contactanos</h1>
         <picture>
             <source
                 media="(max-width: 600px)"
-                srcset="/assets/images/cabinets2-m.jpg"
+                srcset="/assets/images/landing.png"
             />
             <source
                 media="(min-width: 601px)"
-                srcset="/assets/images/cabinets2.jpg"
+                srcset="/assets/images/landing.png"
             />
             <img
                 aria-hidden="true"
                 decoding="async"
-                src="/assets/images/cabinets2.jpg"
+                src="/assets/images/landing.png"
                 alt="kitchen cabinets"
                 loading="eager"
                 width="2500"
@@ -51,79 +51,77 @@ eleventyNavigation:
         <div class="cs-container">
             <form id="cs-form" name="Contact Form" method="post">
                 <div class="cs-content">
-                    <span class="cs-topper">Contact</span>
-                    <h2 class="cs-title">Get in Touch</h2>
+                    <span class="cs-topper">Contactanos</span>
+                    <h2 class="cs-title">ponte en contacto</h2>
                     <p class="cs-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ridiculus elementum ullamcorper ipsum porttitor aliquam.
-                        Id magna urna ultrices odio pulvinar. Sed ut.
+                        ¿Tienes preguntas, sugerencias o deseas conocer más sobre XALA y cómo podemos ayudarte? Estamos aquí para escucharte. Ponte en contacto con nosotros a través de nuestro correo electrónico o síguenos en nuestras redes sociales para mantenerte al tanto de nuestras novedades. ¡Tu esencia nos inspira!
                     </p>
                 </div>
                 <label>
-                    Name
+                    nombre
                     <input
                         required
                         type="text"
                         id="name"
                         name="name"
-                        placeholder="Name"
+                        placeholder="Nombre"
                     />
                 </label>
                 <label>
-                    Email
+                    Correo
                     <input
                         required
                         type="text"
                         id="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder="Correo"
                     />
                 </label>
                 <label>
-                    Phone
+                    Telefono
                     <input
                         required
                         type="text"
                         id="phone"
                         name="phone"
-                        placeholder="Phone"
+                        placeholder="Telefono"
                     />
                 </label>
                 <label>
-                    How Did You Find Us
+                    ¿Como nos encontraste?
                     <input
                         type="text"
                         id="find"
                         name="find-us"
-                        placeholder="How did you find us?"
+                        placeholder="¿Como nos encontraste?"
                     />
                 </label>
                 <label class="cs-label-message">
-                    Message
+                    Mensaje
                     <textarea
                         required
                         name="Message"
                         id="message"
-                        placeholder="Write message..."
+                        placeholder="Escribe un mensaje..."
                     ></textarea>
                 </label>
                 <button class="cs-button-solid" type="submit">
-                    Submit Message
+                    Enviar Mensaje
                 </button>
             </form>
             <div class="cs-right-section">
                 <!--Email-->
-                <span class="cs-header">Email</span>
+                <span class="cs-header">Correo</span>
                 <a class="cs-link" href="mailto:{{ client.email }}"
                     >{{ client.email }}</a
                 >
                 <!--Phone-->
-                <span class="cs-header">Phone</span>
+                <span class="cs-header">Telefono</span>
                 <a class="cs-link" href="tel:{{ client.phoneForTel }}"
                     >{{ client.phoneFormatted }}</a
                 >
                 <!--Address-->
-                <span class="cs-header">Address</span>
+                <span class="cs-header">Dirección</span>
                 <a class="cs-link" href="{{ client.address.mapLink }}">
                     {{ client.address.lineOne }},
                     <br />
@@ -140,12 +138,12 @@ eleventyNavigation:
                 <picture class="cs-bg-picture">
                     <source
                         media="(min-width: 601px)"
-                        srcset="/assets/images/skyscraper.jpg"
+                        srcset="/assets/images/Founders.jpg"
                     />
                     <img
                         aria-hidden="true"
                         decoding="async"
-                        src="/assets/images/skyscraper.jpg"
+                        src="/assets/images/Founders.jpg"
                         alt="building"
                         loading="lazy"
                         width="2500"
